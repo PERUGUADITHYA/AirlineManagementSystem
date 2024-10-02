@@ -1,44 +1,45 @@
 # ✈️ Airline Management System
 
-### 📄 Project Description
-The **Airline Management System** is a full-stack web application that allows administrators to manage flight-related operations efficiently. The system is developed using **Spring Boot** for the backend, **Angular** for the frontend, and **MYSQL** as the database. It includes features like booking flights, managing flights, and handling payments securely via the **Razorpay Payment Gateway**. 
+### 📄 Project Overview
+The **Airline Management System** is a comprehensive, full-stack web application designed to streamline the management of airline operations. This system empowers administrators to effortlessly manage flights and bookings while providing users with a seamless flight booking and payment experience. Built with a modern tech stack, it leverages **Spring Boot** for the backend, **Angular** for the frontend, and **MySQL** as the database, ensuring robust performance and scalability.
+
+Secure payment integration is achieved through the **Razorpay Payment Gateway**, offering a hassle-free, real-time transaction process for users.
 
 ---
 
-### 🖥️ **Tech Stack**
+### 🖥️ **Technology Stack**
 
-#### 🌐 Frontend:
-- **HTML** for structure
-- **CSS** & **Bootstrap** for styling and responsiveness
-- **JavaScript** & **TypeScript** for interactive functionality
-- **Angular** for client-side framework
+#### 🌐 **Frontend**:
+- **HTML5** for semantic structure
+- **CSS3** & **Bootstrap** for elegant, responsive designs
+- **JavaScript** & **TypeScript** for dynamic interactivity
+- **Angular** as the frontend framework for building scalable single-page applications (SPA)
 
-#### ⚙️ Backend:
-- **Spring Boot** with **JPA** for RESTful services and database interactions
+#### ⚙️ **Backend**:
+- **Spring Boot** with **JPA (Java Persistence API)** for building RESTful APIs and managing database transactions
 
-#### 🗃️ Database:
-- **MYSQL** for storing and retrieving data
+#### 🗃️ **Database**:
+- **MySQL** for efficient data storage and retrieval, ensuring data integrity and performance
 
-#### 💳 Payment Gateway:
-- **Razorpay** for secure and reliable payment processing
+#### 💳 **Payment Gateway**:
+- **Razorpay** for secure and seamless payment processing, providing users with a trusted payment experience
 
 ---
 
-### 🚀 **Functionalities**
+### 🚀 **Key Functionalities**
 
-#### 🛠️ Admin Features:
-- **Add Flights**: Admin can add flight details such as flight number, source, destination, time, and cost.
-- **Update Flights**: Modify details of existing flights.
-- **Delete Flights**: Remove flights from the system.
-- **View All Flights**: List all available flights and filter by flight number.
-- **View Bookings**: View the details of all bookings made by users.
+#### 🔑 **Admin Dashboard**:
+1. **Add Flights**: Administrators can add new flights with essential details such as flight number, source, destination, departure/arrival time, and ticket price.
+2. **Update Flights**: Modify flight details as needed for better control and management.
+3. **Delete Flights**: Easily remove flights from the system when necessary.
+4. **View All Flights**: View a comprehensive list of all scheduled flights, with the ability to filter based on flight numbers.
+5. **View User Bookings**: Administrators can track and manage all user bookings, providing oversight on reservations.
 
-#### 👤 User Features:
-- **Search Flights**: Search for available flights by source and destination.
-- **Book Flight**: Add a new booking with a selected flight.
-- **Delete Booking**: Cancel an existing booking.
-- **Payment Integration**: Secure payments via **Razorpay**.
-- **View Tickets**: View booked tickets.
-- **Download PDF Tickets**: If the payment is successful, users can download a PDF version of the ticket.
+#### ✈️ **User Features**:
+1. **Search Flights**: Users can search for flights by selecting their departure city (source) and destination city.
+2. **Book Flights**: Seamlessly book a flight from the available options and proceed to payment.
+3. **Cancel Booking**: Easily cancel bookings when plans change.
+4. **Payment Integration**: Use **Razorpay** for fast, secure payments for flight bookings.
+5. **View & Download Tickets**: After successful payment, users can view their booking details and download a PDF version of their flight tickets for convenience.
 
 ---
